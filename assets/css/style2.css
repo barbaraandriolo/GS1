@@ -1,0 +1,94 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    background-color: #303030;
+    color: #dddddd;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #252525;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .p1 {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    padding: 8px;
+    border: 1px solid #f8e4c6;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-left: 50px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+  }
+  
+  #salvar {
+    background-color: #c9ff97;
+    color: #000000;
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  #CalcularDespesas {
+    background-color: #b56cfa;
+    color: #000000;
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 36px;
+    }
+  
+    .p1 {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      padding: 20px 40px;
+    }
+  }
