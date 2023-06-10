@@ -21,6 +21,7 @@ function cadastro(){
   const CPF = document.querySelector("#CPF").value;
   const email = document.querySelector("#email").value;
   const telefone = document.querySelector("#telefone").value;
+  const consumo = document.querySelector("#consumo").value;
 
    const usuario = {
     id: Date.now(),
@@ -28,11 +29,13 @@ function cadastro(){
     CPF,
     email,
     telefone,
+    consumo
   };
 
   usuarios.push(usuario);
 
   atualizar();
+  alert("Perfil salvo com sucesso!");
 
 }
 

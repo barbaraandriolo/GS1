@@ -41,7 +41,8 @@ body {
   
   input[type="text"],
   input[type="email"],
-  input[type="tel"] {
+  input[type="tel"],
+  input[type="number"] {
     padding: 8px;
     border: 1px solid #f8e4c6;
     border-radius: 4px;

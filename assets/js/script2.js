@@ -22,6 +22,7 @@ function cadastro(){
   const CNPJ = document.querySelector("#CNPJ").value;
   const email = document.querySelector("#email").value;
   const telefone = document.querySelector("#telefone").value;
+  const consumo = document.querySelector("#consumo").value;
 
    const usuario = {
     id: Date.now(),
@@ -29,11 +30,15 @@ function cadastro(){
     CNPJ,
     email,
     telefone,
-  };
+    consumo
 
+  };
+  
   usuarios.push(usuario);
 
   atualizar();
+  alert("Perfil salvo com sucesso!");
+
 }
 
 function createCard(usuario){

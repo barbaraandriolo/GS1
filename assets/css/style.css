@@ -1,75 +1,94 @@
 
 
 body {
-    font-family: "Helvetica", sans-serif;
-    background-color: #000000;
-    color: #505050;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .title {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .texto-aba h1 {
-    color: #ffffff;
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .p1, .p2, .p3, .p4 {
-    color: #f8e4c6;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
-  
-  .form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .botao1, .botao2, #CalcularDespesas {
-    background-color: #3d5977;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    margin-top: 20px;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: background-color 0.3s ease;
-  }
-  
-  .botao1:hover, .botao2:hover, #CalcularDespesas:hover {
-    background-color: #1b4f86;
-  }
-  
-  #linha {
-    background-color: #444444;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
+  font-family: "Helvetica", sans-serif;
+  background-color: #000000;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
 
-  
-  @media (min-width: 768px) {
-    .title {
-      padding: 40px;
-    }
-  
-    .texto-aba h1 {
-      font-size: 36px;
-    }
-  
-    .p1, .p2, .p3, .p4 {
-      font-size: 18px;
-    }
+.title {
+  text-align: center;
+  padding: 20px;
+}
+
+.texto-aba h1 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.p1, .p2, .p3, .p4 {
+  font-family: Helvetica, sans-serif;
+  color: #fad398;
+  font-size: 32px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.botao1, .botao2 {
+  background-color: #3d5977;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.botao1:hover, .botao2:hover {
+  background-color: #1b4f86;
+}
+
+#CalcularDespesas {
+  background-color: #b56cfa;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  width: 200px;
+}
+
+#CalcularDespesas:hover {
+  background-color: #8f3be6;
+}
+
+#linha {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .title {
+    padding: 40px;
   }
+
+  .texto-aba h1 {
+    font-size: 48px;
+  }
+
+  .p1, .p2, .p3, .p4 {
+    font-size: 36px;
+  }}
